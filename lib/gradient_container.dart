@@ -1,4 +1,4 @@
-import 'package:first_app/text.dart';
+//import 'package:first_app/text.dart';
 import 'package:flutter/material.dart';
 
 class GradientContainer extends StatelessWidget {
@@ -22,7 +22,12 @@ class GradientContainer extends StatelessWidget {
           ],
         ),
       ),
-      child: const Center(child: TextEdit('uwu')),
+      child: Center(
+        child: Image.asset(
+          'assets/images/dice-5.png',
+          width: 160,
+        ),
+      ),
     );
   }
 }
